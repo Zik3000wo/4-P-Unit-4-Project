@@ -6,7 +6,7 @@ Requirements
 [ ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Fill Text with Image Background 
+[ y ] Feature 1 - Fill Text with Image Background 
 [ no ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Use Google Font or Uploaded Font
@@ -21,23 +21,48 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <style>
 
+ h1{
+  font-size: 72px ;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+
+
+  }  
+
+ .Lokfuatnight {
+  
+   font-weight: bold;
+   color: transparent;
+   background-image: url('https://th.bing.com/th?id=OLC.5TeG0%2b4EMo%2b7%2bA480x360&w=323&h=200&c=8&rs=1&qlt=90&o=6&cdv=1&pid=Local');
+   background-clip: text;
+   background-color: rgb(0, 0, 0); /* fallback text color if image fails to load */
+
+   /* For older browsers use this instead */
+   /*-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;*/
+  }
+
+
   </style>
 </head>
+
 <body>
 
-  <h1>My Unofficial Local Guide to [~~~]</h1>
+  <h1 class="Lokfuatnight">My Unofficial Local Guide to LOK FU</h1>
   
-  <h3>Content Element 1</h3>
+  <h3 class="Lokfuatnight">Content Element 1</h3>
   <hr>
+  <img src="https://i.ytimg.com/vi/InBbNsSr6ZM/maxresdefault.jpg">
   <p>About Content Element #1</p>
   <br><br>
 
-  <h3>Content Element 2</h3>
+  <h3 class="Lokfuatnight">Content Element 2</h3>
   <hr>
   <p>About Content Element #2</p>
   <br><br>
 
-  <h3>Content Element 3</h3>
+  <h3 class="Lokfuatnight">Content Element 3</h3>
   <hr>
   <p>About Content Element #3</p>
   <br><br>
